@@ -13,7 +13,7 @@ print(data)
 
 
 
-loc=("/home/vss9kor/Documents/test1.xlsx")
+loc=("/home/Documents/test1.xlsx")
 wb=xlrd.open_workbook(loc)
 sheet=wb.sheet_by_index(0)
 print(sheet.cell_value(0,0))
@@ -82,5 +82,3 @@ os.system('sudo UpdateRights')
 os.system('sudo echo asddfg')
 
 
-var=os.system('elinks bosch.com| cat>/dev/null')
-print(var)
